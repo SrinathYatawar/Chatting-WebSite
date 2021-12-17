@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(231, 178, 31);
+    text-align: center;
+}
+.p{
+    display: inline;
+    padding-right: 2rem;
+    color: azure;
+}
+h1{
+    display: inline;
+    position: absolute;
+    left: 1rem;
+    color: rgb(73, 29, 29);
+}
+.contents{
+    position: absolute;
+    right: 0.2rem;
+    font-size: 1em;
+}
+.Main{
+    padding: 20% 0;
+   width: 720px;
+   height: 720px;
+}
+.btn {
+    background: #49ad40;
+    background-image: -webkit-linear-gradient(top, #49ad40, #2bb8a5);
+    background-image: -moz-linear-gradient(top, #49ad40, #2bb8a5);
+    background-image: -ms-linear-gradient(top, #49ad40, #2bb8a5);
+    background-image: -o-linear-gradient(top, #49ad40, #2bb8a5);
+    background-image: linear-gradient(to bottom, #49ad40, #2bb8a5);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #fc3cfc;
+    background-image: -webkit-linear-gradient(top, #fc3cfc, #344ad9);
+    background-image: -moz-linear-gradient(top, #fc3cfc, #344ad9);
+    background-image: -ms-linear-gradient(top, #fc3cfc, #344ad9);
+    background-image: -o-linear-gradient(top, #fc3cfc, #344ad9);
+    background-image: linear-gradient(to bottom, #fc3cfc, #344ad9);
+    text-decoration: none;
+  }
+  .Timer-clicks{
+      position: fixed;
+      width: 100%;
+      left: 0%;
+      right: 0%;
+      bottom: 0%;
+      background-color: rgb(65, 71, 71);
+      z-index: 10;
+  }
+  #Timer{
+      margin: 5px 0;
+      position: relative;
+      right: 42%;
+      display: inline-block;
+      color: aliceblue;
+  }
+  #clicks{
+      display: inline-block;
+      margin: 5px 0;  
+      color: aliceblue;
+    }
+
+    .visitors{
+        position: absolute;
+        right: 4%;
+        display: inline-block;
+    }
+    h3{
+        display: inline-block;
+        color: beige;
+        padding-right: 0.5rem;
+        margin: 5px 0;
+    }

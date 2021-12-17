@@ -1,0 +1,247 @@
+body{
+    background-color:#EAF6F6;
+}
+.Timer-clicks{
+    position: fixed;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-color: rgb(65, 71, 71);
+    z-index: 10;
+}
+#Timer{
+  color: beige;
+  display: inline-block;
+  margin: 5px 0;
+}
+#clicks{
+    color: beige;
+    display: inline-block;
+    margin: 5px 0;
+  }
+  .visitors{
+    position: absolute;
+    right: 4%;
+    display: inline-block;
+}
+h3{
+    display: inline-block;
+    color: beige;
+    padding-right: 0.5rem;
+    margin: 5px 0;
+}
+
+.msg-box{
+    font-family: 'Nunito', sans-serif;
+    background-image: linear-gradient(rgb(168, 220, 255),rgb(98, 178, 231));
+    width: 850px;
+height: 85vh;
+position: absolute;
+right: 1%;
+z-index: -4;
+}
+.chatbox{
+    background-image: linear-gradient(rgb(243, 237, 237),rgb(82, 75, 80));
+width:800px;
+height: 75vh;
+margin: auto;
+border: 1px solid;
+border-radius: 2%;
+z-index: -2;
+font-family: 'Nunito', sans-serif;
+overflow-y: auto;
+}
+.msg{
+border-radius: 8%;
+width: 25%;
+padding: 3px;
+margin: 7px;
+background-color: rgb(254, 255, 194);
+z-index: 1;
+word-wrap: break-word;
+}
+.left{
+float: left;
+clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+.typebox{
+ position: absolute;
+ left: 60px;
+}
+.chat-box{
+    width: 700px;
+    height: 1.6rem;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+input{
+    border: 0;
+}
+.welcome{
+    display: inline-block;
+    color: rgba(108, 142, 255, 0.884);
+    margin: auto;
+}
+.send-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(38, 159, 180);
+}
+h4{
+    margin: 0;
+    display: inline-block;
+    padding-right: 3px;
+}
+p{
+    margin: 0;
+}
+.chatRoom-box{
+    text-align: center;
+    width: 300px;
+    height: 58vh;
+    background-color: rgb(73, 179, 250);
+    position: absolute;
+    left: 4%;
+    top: 15%;
+   z-index: -2;
+   font-family: 'Nunito', sans-serif;
+}
+.username,.roomcode{
+    font-family: 'Nunito', sans-serif;
+    width: 280px;
+    height: 25px;
+}
+.Username{
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    top: 15vh;
+    left: 8px;
+    margin-right: 8px;
+}
+.Roomcode{
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    top: 27vh;
+    left: 8px;
+    margin-right: 8px;
+}
+.roombox-heading{
+    width: 100% ;
+    height: 4.5vh;
+    background-color: rgb(43, 152, 255);
+}
+.headingh1{
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    right: 31%;
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+.websitelogo{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border-color: aqua;
+    position: absolute;
+    left: 5%;
+    z-index: 1;
+}
+.coloring{
+    color: rgb(255, 253, 149);
+}
+
+.btn{
+    font-family: 'Nunito', sans-serif;
+    background-color: crimson;
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    bottom: 4%;
+    right: 115px;
+}
+.room-users{
+    width: 100%;
+    height: 5vh;
+    background-color: #10a2e6;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.roomusers{
+    display: inline-block;
+    margin: -2px 0;
+    color: white;
+}
+.reloadimg{
+    width: 25px;
+    height: 25px;
+}
+.reloadimage{
+    border-radius: 50%;
+}
+.roomcode-info{
+    position: absolute;
+    bottom: 13%;
+    right: 0px;
+    padding-right: 0px;
+}
+.onlinebox{
+        display: inline-block;
+       overflow: hidden;
+}
+.Userlist{
+    display: inline-block;
+    color: rgb(250, 255, 225);
+    margin-top: 3px;
+    padding-right: 6px;
+}
+h6{
+    display: inline-block;
+    margin: auto 5px auto 10px;
+    color: aliceblue;
+}
+.Users-Info{
+    color: rgb(254, 255, 240);
+}
+h2{
+    display: inline-block;
+    margin: 0;
+}
+
+.btn-logout {
+    background: #99d6ff;
+    background-image: -webkit-linear-gradient(top, #99d6ff, #33a3e8);
+    background-image: -moz-linear-gradient(top, #99d6ff, #33a3e8);
+    background-image: -ms-linear-gradient(top, #99d6ff, #33a3e8);
+    background-image: -o-linear-gradient(top, #99d6ff, #33a3e8);
+    background-image: linear-gradient(to bottom, #99d6ff, #33a3e8);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn-logout:hover {
+    background: #4c738c;
+    background-image: -webkit-linear-gradient(top, #4c738c, #2586c7);
+    background-image: -moz-linear-gradient(top, #4c738c, #2586c7);
+    background-image: -ms-linear-gradient(top, #4c738c, #2586c7);
+    background-image: -o-linear-gradient(top, #4c738c, #2586c7);
+    background-image: linear-gradient(to bottom, #4c738c, #2586c7);
+    text-decoration: none;
+  }
+  .btn-logout{
+      position: absolute;
+      left: 11%;
+      bottom: 15%;
+  }

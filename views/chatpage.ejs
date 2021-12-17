@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChatPage</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1 class="welcome">"Welcome to Room Chat <%=Name%>"</h1>
+    </div>
+   <div class="msg-box">
+       <div class="room-users">
+           <h2 class="roomusers">RoomCode:</h2>
+           <span class="Users-Info"><h2>Users </h2></span> 
+           <div class="onlinebox"></div>
+       </div>
+    <div class="chatbox">
+       </div>
+       <div class="typebox">
+           <form action="#" class="msgsub">
+            <input type="text" class="chat-box" placeholder="Type A Message">
+            <button class="send-btn" type="submit">&lat;</button>
+           </form>
+       </div>
+   </div>
+   <div class="chatRoom-box">
+       <div class="roombox-heading">
+        <h2 class="headingh1">RoomChat</h2>
+           <img src="images/signuplogo.png" alt="websitelogo" class="websitelogo">
+       </div>
+      <form action="#" class="roomsub">
+        <div class="Username">
+            <h3 class="coloring">Username</h3>
+            <input type="text" class="username" name="Username" placeholder="Enter Name" value="<%=Name%>" required autocomplete="off">
+          </div>
+        <div class="Roomcode">
+            <h3 class="coloring">Create/Enter Room</h3>
+        <input type="text" class="roomcode" placeholder="Create/Enter Roomcode" required><span class="reloadimage"></span>
+        </div>
+        <h3 class="roomcode-info">Share The Above RoomCode & Enjoy! </h3>
+        <button class="btn" type="submit">Save</button>
+      </form>
+ </div>
+ <button class="btn-logout"><a href="/" style="text-decoration: none;">Logout</a></button>
+      <div class="Timer-clicks">
+        <h2 id="Timer">12:00:00Am</h2>
+        <h4 style="position: absolute; left: 44%; margin-top: 10px; color: rgb(253, 248, 173);">&copy;copyright 2021</h4>
+        <div class="visitors ">
+            <h3>Visited</h3>
+        <h2 id="clicks"></h2>
+        <p style="display: inline-block; margin: 0; padding-left: 5px; color: rgb(252, 251, 244);">Times</p>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+    <script src="chat.js"></script>
+        
+</body>
+</html>
